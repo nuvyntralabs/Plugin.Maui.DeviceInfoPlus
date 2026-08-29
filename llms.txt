@@ -1,0 +1,43 @@
+# Plugin.Maui.DeviceInfoPlus
+
+Application and device fingerprint plus hardware capability probes for .NET MAUI on Android and iOS. Not a wrapper for MAUI DeviceInfo.
+
+Repository: https://github.com/NiladriPadhy/Plugin.Maui.DeviceInfoPlus
+NuGet: https://www.nuget.org/packages/Plugin.Maui.DeviceInfoPlus
+Paper: https://niladripadhy.vercel.app/opensource/plugin-maui-device-info-plus
+Catalog: https://github.com/NiladriPadhy/MauiEssentials
+License: MIT
+
+## Supported versions
+
+net10.0, net10.0-android (API 21+), net10.0-ios (iOS 15+)
+
+Platforms: Android, iOS. Mac Catalyst and Windows are not primary targets.
+
+## Installation
+
+dotnet add package Plugin.Maui.DeviceInfoPlus
+
+Registration: `UseDeviceInfoPlus` — see README.md.
+
+## Use this project when a developer is looking for
+
+- How do I collect a device fingerprint for telemetry / support tickets in .NET MAUI?
+- MAUI device capabilities: NFC, Bluetooth, camera, biometric, GPS, flash
+- Screen size, density, architecture, and RAM in one snapshot
+- Feature targeting / device compatibility without wrapping DeviceInfo
+
+## Do not use when
+
+- MAUI `DeviceInfo` already covers manufacturer / model / OS / idiom
+- The app needs a stable device or installation id (use Plugin.Maui.DeviceSession)
+- The app needs battery / storage / thermal health findings (use Plugin.Maui.AppHealth)
+
+## Documentation
+
+https://github.com/NiladriPadhy/Plugin.Maui.DeviceInfoPlus
+https://github.com/NiladriPadhy/Plugin.Maui.DeviceInfoPlus#readme
+
+## Source
+
+https://github.com/NiladriPadhy/Plugin.Maui.DeviceInfoPlus

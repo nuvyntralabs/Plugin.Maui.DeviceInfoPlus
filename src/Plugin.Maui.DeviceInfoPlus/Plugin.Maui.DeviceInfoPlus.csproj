@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net10.0;net10.0-android;net10.0-ios</TargetFrameworks>
+    <UseMaui>true</UseMaui>
+    <SingleProject>true</SingleProject>
+    <SkipValidateMauiImplicitPackageReferences>true</SkipValidateMauiImplicitPackageReferences>
+    <IsAotCompatible>true</IsAotCompatible>
+    <EnableTrimAnalyzer>true</EnableTrimAnalyzer>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);CA1416</NoWarn>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">15.0</SupportedOSPlatformVersion>
+    <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">21.0</SupportedOSPlatformVersion>
+
+    <RootNamespace>Plugin.Maui.DeviceInfoPlus</RootNamespace>
+    <AssemblyName>Plugin.Maui.DeviceInfoPlus</AssemblyName>
+    <PackageId>Plugin.Maui.DeviceInfoPlus</PackageId>
+    <Title>.NET MAUI DeviceInfoPlus — device fingerprint and capabilities</Title>
+    <Description>Application and device fingerprint plus hardware capability probes for .NET MAUI on Android and iOS. Snapshot manufacturer, model, OS, screen, density, architecture, RAM, and battery together with NFC, Bluetooth, camera, biometric, GPS, and flash presence — for telemetry, diagnostics, feature targeting, and support tickets. Does not wrap MAUI DeviceInfo.</Description>
+    <PackageTags>dotnet-maui;maui;maui-plugin;maui-utilities;cross-platform;android;ios;nuget;mauiessentials;deviceinfoplus;fingerprint;capabilities;nfc;bluetooth;biometric;gps;telemetry;diagnostics</PackageTags>
+    <Authors>Niladri</Authors>
+    <Company>MauiEssentials</Company>
+    <Copyright>Copyright © 2026 Niladri</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageProjectUrl>https://github.com/NiladriPadhy/Plugin.Maui.DeviceInfoPlus</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/NiladriPadhy/Plugin.Maui.DeviceInfoPlus</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Version>1.0.0</Version>
+    <PackageReleaseNotes>Initial release: DeviceInfoPlus.GetAsync snapshot with hardware fingerprint and NFC / Bluetooth / camera / biometric / GPS / flash capability probes.</PackageReleaseNotes>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+    <None Include="..\..\LICENSE" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="Plugin.Maui.DeviceInfoPlus.Tests" />
+  </ItemGroup>
+
+</Project>
