@@ -116,8 +116,8 @@ Capability flags mean **hardware is present**. They do not mean the user granted
 | Need | Use |
 | --- | --- |
 | Manufacturer / model / OS / idiom only | MAUI `DeviceInfo` |
-| Stable device or installation id | [Plugin.Maui.DeviceSession](https://github.com/NiladriPadhy/Plugin.Maui.DeviceSession) |
-| Battery / storage / thermal **health** findings | [Plugin.Maui.AppHealth](https://github.com/NiladriPadhy/Plugin.Maui.AppHealth) |
+| Stable device or installation id | [Plugin.Maui.DeviceSession](https://github.com/nuvyntralabs/Plugin.Maui.DeviceSession) |
+| Battery / storage / thermal **health** findings | [Plugin.Maui.AppHealth](https://github.com/nuvyntralabs/Plugin.Maui.AppHealth) |
 
 ## Without the generic host
 

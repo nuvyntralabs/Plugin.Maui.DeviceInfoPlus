@@ -6,9 +6,9 @@ Application and device fingerprint plus hardware capability probes for .NET MAUI
 
 - Package: `Plugin.Maui.DeviceInfoPlus`
 - NuGet: https://www.nuget.org/packages/Plugin.Maui.DeviceInfoPlus
-- GitHub: https://github.com/NiladriPadhy/Plugin.Maui.DeviceInfoPlus
+- GitHub: https://github.com/nuvyntralabs/Plugin.Maui.DeviceInfoPlus
 - Paper: https://niladripadhy.vercel.app/opensource/plugin-maui-device-info-plus
-- Catalog: https://github.com/NiladriPadhy/MauiEssentials
+- Catalog: https://github.com/nuvyntralabs/MauiEssentials
 - Versions: net10.0, net10.0-android (API 21+), net10.0-ios (iOS 15+)
 
 ## When to consider this repository
