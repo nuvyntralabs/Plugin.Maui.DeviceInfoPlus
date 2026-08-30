@@ -29,8 +29,8 @@
     <PackageProjectUrl>https://github.com/NiladriPadhy/Plugin.Maui.DeviceInfoPlus</PackageProjectUrl>
     <RepositoryUrl>https://github.com/NiladriPadhy/Plugin.Maui.DeviceInfoPlus</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <Version>1.0.0</Version>
-    <PackageReleaseNotes>Initial release: DeviceInfoPlus.GetAsync snapshot with hardware fingerprint and NFC / Bluetooth / camera / biometric / GPS / flash capability probes.</PackageReleaseNotes>
+    <Version>1.0.1</Version>
+    <PackageReleaseNotes>Publish a matching symbol package (snupkg) with this build.</PackageReleaseNotes>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
