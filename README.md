@@ -180,7 +180,7 @@ dotnet build samples/Plugin.Maui.DeviceInfoPlus.Sample/Plugin.Maui.DeviceInfoPlu
 dotnet pack src/Plugin.Maui.DeviceInfoPlus/Plugin.Maui.DeviceInfoPlus.csproj -c Release -o artifacts
 ```
 
-The `.nupkg` is written to `artifacts/Plugin.Maui.DeviceInfoPlus.1.0.0.nupkg`.
+The `.nupkg` is written to `artifacts/Plugin.Maui.DeviceInfoPlus.1.0.4.nupkg`.
 
 ## License
 
